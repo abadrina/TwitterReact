@@ -1,0 +1,12 @@
+applications:
+- services:
+  - TwitterReact-cloudantNoSQLDB
+  - TwitterReact-MonitoringAndAnalytics
+  disk_quota: 1024M
+  host: TwitterReact
+  name: TwitterReact
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
